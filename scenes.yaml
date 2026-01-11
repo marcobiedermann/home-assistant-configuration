@@ -7,22 +7,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -43,22 +43,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -79,22 +79,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -115,22 +115,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -151,37 +151,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: xy
       brightness: 140
       color_temp_kelvin:
       color_temp:
       hs_color:
-        - 36.8
-        - 58.824
+      - 36.8
+      - 58.824
       rgb_color:
-        - 255
-        - 197
-        - 105
+      - 255
+      - 197
+      - 105
       xy_color:
-        - 0.4786
-        - 0.4116
+      - 0.4786
+      - 0.4116
       mode: normal
       dynamics: none
       friendly_name: Stehlampe Nyla
@@ -193,37 +193,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 178
       color_temp_kelvin: 2500
       color_temp: 400
       hs_color:
-        - 28.874
-        - 72.522
+      - 28.874
+      - 72.522
       rgb_color:
-        - 255
-        - 159
-        - 70
+      - 255
+      - 159
+      - 70
       xy_color:
-        - 0.546
-        - 0.389
+      - 0.546
+      - 0.389
       mode: normal
       dynamics: none
       icon: mdi:lamp
@@ -236,37 +236,37 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: xy
       brightness: 20
       color_temp_kelvin:
       color_temp:
       hs_color:
-        - 26.4
-        - 78.431
+      - 26.4
+      - 78.431
       rgb_color:
-        - 255
-        - 143
-        - 55
+      - 255
+      - 143
+      - 55
       xy_color:
-        - 0.5779
-        - 0.3786
+      - 0.5779
+      - 0.3786
       mode: normal
       dynamics: none
       icon: mdi:led-strip-variant
@@ -279,22 +279,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -315,22 +315,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -347,18 +347,18 @@
       state: 'off'
     light.tischlampe_nessino:
       effect_list:
-        - candle
-        - 'off'
+      - candle
+      - 'off'
       supported_color_modes:
-        - brightness
+      - brightness
       effect:
       color_mode:
       brightness:
       entity_id:
-        - light.tischlampe_nessino_1
-        - light.tischlampe_nessino_2
-        - light.tischlampe_nessino_3
-        - light.tischlampe_nessino_4
+      - light.tischlampe_nessino_1
+      - light.tischlampe_nessino_2
+      - light.tischlampe_nessino_3
+      - light.tischlampe_nessino_4
       icon: mdi:lamp
       friendly_name: Tischlampe Nessino
       supported_features: 44
@@ -376,22 +376,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -411,22 +411,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -446,22 +446,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -482,22 +482,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -517,22 +517,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -552,22 +552,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -587,22 +587,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -622,22 +622,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -662,37 +662,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
-      brightness: 38
+      brightness: 51
       color_temp_kelvin: 2109
       color_temp: 474
       hs_color:
-        - 30.14
-        - 88.927
+      - 30.14
+      - 88.927
       rgb_color:
-        - 255
-        - 142
-        - 28
+      - 255
+      - 142
+      - 28
       xy_color:
-        - 0.588
-        - 0.386
+      - 0.588
+      - 0.386
       mode: normal
       dynamics: none
       icon: mdi:ceiling-light
@@ -705,22 +705,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -741,37 +741,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
-      brightness: 51
+      brightness: 102
       color_temp_kelvin: 2500
       color_temp: 400
       hs_color:
-        - 28.874
-        - 72.522
+      - 28.874
+      - 72.522
       rgb_color:
-        - 255
-        - 159
-        - 70
+      - 255
+      - 159
+      - 70
       xy_color:
-        - 0.546
-        - 0.389
+      - 0.546
+      - 0.389
       mode: normal
       dynamics: none
       icon: mdi:floor-lamp-torchiere-variant
@@ -784,22 +784,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -820,37 +820,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: xy
       brightness: 63
       color_temp_kelvin:
       color_temp:
       hs_color:
-        - 36.8
-        - 58.824
+      - 36.8
+      - 58.824
       rgb_color:
-        - 255
-        - 197
-        - 105
+      - 255
+      - 197
+      - 105
       xy_color:
-        - 0.4786
-        - 0.4116
+      - 0.4786
+      - 0.4116
       mode: normal
       dynamics: none
       friendly_name: Stehlampe Nyla
@@ -862,37 +862,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 63
       color_temp_kelvin: 2500
       color_temp: 400
       hs_color:
-        - 28.874
-        - 72.522
+      - 28.874
+      - 72.522
       rgb_color:
-        - 255
-        - 159
-        - 70
+      - 255
+      - 159
+      - 70
       xy_color:
-        - 0.546
-        - 0.389
+      - 0.546
+      - 0.389
       mode: normal
       dynamics: none
       icon: mdi:lamp
@@ -905,22 +905,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -941,22 +941,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -977,37 +977,37 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
-      color_mode: xy
-      brightness: 38
-      color_temp_kelvin:
-      color_temp:
+      color_mode: color_temp
+      brightness: 51
+      color_temp_kelvin: 2000
+      color_temp: 500
       hs_color:
-        - 36.8
-        - 58.824
+      - 30.601
+      - 94.547
       rgb_color:
-        - 255
-        - 197
-        - 105
+      - 255
+      - 137
+      - 14
       xy_color:
-        - 0.4786
-        - 0.4116
+      - 0.598
+      - 0.383
       mode: normal
       dynamics: none
       icon: mdi:sign-pole
@@ -1016,18 +1016,18 @@
       state: 'on'
     light.tischlampe_nessino:
       effect_list:
-        - candle
-        - 'off'
+      - candle
+      - 'off'
       supported_color_modes:
-        - brightness
+      - brightness
       effect:
       color_mode:
       brightness:
       entity_id:
-        - light.tischlampe_nessino_1
-        - light.tischlampe_nessino_2
-        - light.tischlampe_nessino_3
-        - light.tischlampe_nessino_4
+      - light.tischlampe_nessino_1
+      - light.tischlampe_nessino_2
+      - light.tischlampe_nessino_3
+      - light.tischlampe_nessino_4
       icon: mdi:lamp
       friendly_name: Tischlampe Nessino
       supported_features: 44
@@ -1045,37 +1045,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 255
       color_temp_kelvin: 7352
       color_temp: 136
       hs_color:
-        - 230.084
-        - 8.604
+      - 230.084
+      - 8.604
       rgb_color:
-        - 233
-        - 237
-        - 255
+      - 233
+      - 237
+      - 255
       xy_color:
-        - 0.306
-        - 0.31
+      - 0.306
+      - 0.31
       mode: normal
       dynamics: none
       friendly_name: Deckenlampe Dakira Spiegel
@@ -1087,37 +1087,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 255
       color_temp_kelvin: 7352
       color_temp: 136
       hs_color:
-        - 230.084
-        - 8.604
+      - 230.084
+      - 8.604
       rgb_color:
-        - 233
-        - 237
-        - 255
+      - 233
+      - 237
+      - 255
       xy_color:
-        - 0.306
-        - 0.31
+      - 0.306
+      - 0.31
       mode: normal
       dynamics: none
       friendly_name: Deckenlampe Dakira Wohnungstür
@@ -1129,37 +1129,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 255
       color_temp_kelvin: 7352
       color_temp: 136
       hs_color:
-        - 230.084
-        - 8.604
+      - 230.084
+      - 8.604
       rgb_color:
-        - 233
-        - 237
-        - 255
+      - 233
+      - 237
+      - 255
       xy_color:
-        - 0.306
-        - 0.31
+      - 0.306
+      - 0.31
       mode: normal
       dynamics: none
       friendly_name: Deckenlampe Crismilda
@@ -1171,37 +1171,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 255
       color_temp_kelvin: 7352
       color_temp: 136
       hs_color:
-        - 230.084
-        - 8.604
+      - 230.084
+      - 8.604
       rgb_color:
-        - 233
-        - 237
-        - 255
+      - 233
+      - 237
+      - 255
       xy_color:
-        - 0.306
-        - 0.31
+      - 0.306
+      - 0.31
       mode: normal
       dynamics: none
       friendly_name: Deckenlampe PH 5
@@ -1213,37 +1213,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 255
       color_temp_kelvin: 7352
       color_temp: 136
       hs_color:
-        - 230.084
-        - 8.604
+      - 230.084
+      - 8.604
       rgb_color:
-        - 233
-        - 237
-        - 255
+      - 233
+      - 237
+      - 255
       xy_color:
-        - 0.306
-        - 0.31
+      - 0.306
+      - 0.31
       mode: normal
       dynamics: none
       friendly_name: Deckenlampe Bisbal Couch
@@ -1255,37 +1255,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 255
       color_temp_kelvin: 7352
       color_temp: 136
       hs_color:
-        - 230.084
-        - 8.604
+      - 230.084
+      - 8.604
       rgb_color:
-        - 233
-        - 237
-        - 255
+      - 233
+      - 237
+      - 255
       xy_color:
-        - 0.306
-        - 0.31
+      - 0.306
+      - 0.31
       mode: normal
       dynamics: none
       friendly_name: Deckenlampe Bladia Esstisch
@@ -1302,37 +1302,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 63
       color_temp_kelvin: 2500
       color_temp: 400
       hs_color:
-        - 28.874
-        - 72.522
+      - 28.874
+      - 72.522
       rgb_color:
-        - 255
-        - 159
-        - 70
+      - 255
+      - 159
+      - 70
       xy_color:
-        - 0.546
-        - 0.389
+      - 0.546
+      - 0.389
       mode: normal
       dynamics: none
       icon: mdi:floor-lamp-torchiere-variant
@@ -1345,22 +1345,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -1380,22 +1380,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -1415,37 +1415,37 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 26
       color_temp_kelvin: 2500
       color_temp: 400
       hs_color:
-        - 28.874
-        - 72.522
+      - 28.874
+      - 72.522
       rgb_color:
-        - 255
-        - 159
-        - 70
+      - 255
+      - 159
+      - 70
       xy_color:
-        - 0.546
-        - 0.389
+      - 0.546
+      - 0.389
       mode: normal
       dynamics: none
       friendly_name: Hue gradient lightstrip 1
@@ -1457,22 +1457,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -1492,37 +1492,37 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 51
       color_temp_kelvin: 2000
       color_temp: 500
       hs_color:
-        - 30.601
-        - 94.547
+      - 30.601
+      - 94.547
       rgb_color:
-        - 255
-        - 137
-        - 14
+      - 255
+      - 137
+      - 14
       xy_color:
-        - 0.598
-        - 0.383
+      - 0.598
+      - 0.383
       mode: normal
       dynamics: none
       friendly_name: Hue play gradient lightstrip 1
@@ -1534,37 +1534,37 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: xy
       brightness: 38
       color_temp_kelvin:
       color_temp:
       hs_color:
-        - 36.8
-        - 58.824
+      - 36.8
+      - 58.824
       rgb_color:
-        - 255
-        - 197
-        - 105
+      - 255
+      - 197
+      - 105
       xy_color:
-        - 0.4786
-        - 0.4116
+      - 0.4786
+      - 0.4116
       mode: normal
       dynamics: none
       icon: mdi:sign-pole
@@ -1577,37 +1577,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 63
       color_temp_kelvin: 2500
       color_temp: 400
       hs_color:
-        - 28.874
-        - 72.522
+      - 28.874
+      - 72.522
       rgb_color:
-        - 255
-        - 159
-        - 70
+      - 255
+      - 159
+      - 70
       xy_color:
-        - 0.546
-        - 0.389
+      - 0.546
+      - 0.389
       mode: normal
       dynamics: none
       icon: mdi:lamp
@@ -1616,18 +1616,18 @@
       state: 'on'
     light.tischlampe_nessino:
       effect_list:
-        - candle
-        - 'off'
+      - candle
+      - 'off'
       supported_color_modes:
-        - brightness
+      - brightness
       effect:
       color_mode:
       brightness:
       entity_id:
-        - light.tischlampe_nessino_1
-        - light.tischlampe_nessino_2
-        - light.tischlampe_nessino_3
-        - light.tischlampe_nessino_4
+      - light.tischlampe_nessino_1
+      - light.tischlampe_nessino_2
+      - light.tischlampe_nessino_3
+      - light.tischlampe_nessino_4
       icon: mdi:lamp
       friendly_name: Tischlampe Nessino
       supported_features: 44
@@ -1638,37 +1638,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: xy
       brightness: 63
       color_temp_kelvin:
       color_temp:
       hs_color:
-        - 36.8
-        - 58.824
+      - 36.8
+      - 58.824
       rgb_color:
-        - 255
-        - 197
-        - 105
+      - 255
+      - 197
+      - 105
       xy_color:
-        - 0.4786
-        - 0.4116
+      - 0.4786
+      - 0.4116
       mode: normal
       dynamics: none
       friendly_name: Stehlampe Nyla
@@ -1687,22 +1687,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -1722,37 +1722,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 153
       color_temp_kelvin: 2500
       color_temp: 400
       hs_color:
-        - 28.874
-        - 72.522
+      - 28.874
+      - 72.522
       rgb_color:
-        - 255
-        - 159
-        - 70
+      - 255
+      - 159
+      - 70
       xy_color:
-        - 0.546
-        - 0.389
+      - 0.546
+      - 0.389
       mode: normal
       dynamics: none
       friendly_name: Deckenlampe Bladia Esstisch
@@ -1764,22 +1764,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -1800,22 +1800,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -1835,37 +1835,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: xy
       brightness: 89
       color_temp_kelvin:
       color_temp:
       hs_color:
-        - 36.8
-        - 58.824
+      - 36.8
+      - 58.824
       rgb_color:
-        - 255
-        - 197
-        - 105
+      - 255
+      - 197
+      - 105
       xy_color:
-        - 0.4786
-        - 0.4116
+      - 0.4786
+      - 0.4116
       mode: normal
       dynamics: none
       friendly_name: Stehlampe Nyla
@@ -1877,37 +1877,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 63
       color_temp_kelvin: 2500
       color_temp: 400
       hs_color:
-        - 28.874
-        - 72.522
+      - 28.874
+      - 72.522
       rgb_color:
-        - 255
-        - 159
-        - 70
+      - 255
+      - 159
+      - 70
       xy_color:
-        - 0.546
-        - 0.389
+      - 0.546
+      - 0.389
       mode: normal
       dynamics: none
       icon: mdi:lamp
@@ -1920,22 +1920,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -1955,22 +1955,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -1990,37 +1990,37 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: xy
       brightness: 38
       color_temp_kelvin:
       color_temp:
       hs_color:
-        - 36.8
-        - 58.824
+      - 36.8
+      - 58.824
       rgb_color:
-        - 255
-        - 197
-        - 105
+      - 255
+      - 197
+      - 105
       xy_color:
-        - 0.4786
-        - 0.4116
+      - 0.4786
+      - 0.4116
       mode: normal
       dynamics: none
       icon: mdi:sign-pole
@@ -2033,37 +2033,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 63
       color_temp_kelvin: 2500
       color_temp: 400
       hs_color:
-        - 28.874
-        - 72.522
+      - 28.874
+      - 72.522
       rgb_color:
-        - 255
-        - 159
-        - 70
+      - 255
+      - 159
+      - 70
       xy_color:
-        - 0.546
-        - 0.389
+      - 0.546
+      - 0.389
       mode: normal
       dynamics: none
       friendly_name: Glühbirne Küche
@@ -2075,22 +2075,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -2106,30 +2106,30 @@
       state: 'off'
     light.kuchenzeile:
       supported_color_modes:
-        - brightness
+      - brightness
       color_mode: brightness
       brightness: 3
       entity_id:
-        - light.kuchenzeile_links
-        - light.kuchenzeile_rechts
+      - light.kuchenzeile_links
+      - light.kuchenzeile_rechts
       icon: mdi:lightbulb-group
       friendly_name: Küchenzeile
       supported_features: 40
       state: 'on'
     light.tischlampe_nessino:
       effect_list:
-        - candle
-        - 'off'
+      - candle
+      - 'off'
       supported_color_modes:
-        - brightness
+      - brightness
       effect: 'off'
       color_mode: brightness
       brightness: 3
       entity_id:
-        - light.tischlampe_nessino_1
-        - light.tischlampe_nessino_2
-        - light.tischlampe_nessino_3
-        - light.tischlampe_nessino_4
+      - light.tischlampe_nessino_1
+      - light.tischlampe_nessino_2
+      - light.tischlampe_nessino_3
+      - light.tischlampe_nessino_4
       icon: mdi:lamp
       friendly_name: Tischlampe Nessino
       supported_features: 44
@@ -2149,37 +2149,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 204
       color_temp_kelvin: 4347
       color_temp: 230
       hs_color:
-        - 26.722
-        - 28.925
+      - 26.722
+      - 28.925
       rgb_color:
-        - 255
-        - 214
-        - 181
+      - 255
+      - 214
+      - 181
       xy_color:
-        - 0.401
-        - 0.359
+      - 0.401
+      - 0.359
       mode: normal
       dynamics: none
       friendly_name: Deckenlampe PH 5
@@ -2191,37 +2191,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 77
       color_temp_kelvin: 2500
       color_temp: 400
       hs_color:
-        - 28.874
-        - 72.522
+      - 28.874
+      - 72.522
       rgb_color:
-        - 255
-        - 159
-        - 70
+      - 255
+      - 159
+      - 70
       xy_color:
-        - 0.546
-        - 0.389
+      - 0.546
+      - 0.389
       mode: normal
       dynamics: none
       friendly_name: Glühbirne Küche
@@ -2229,12 +2229,12 @@
       state: 'on'
     light.kuchenzeile:
       supported_color_modes:
-        - brightness
+      - brightness
       color_mode: brightness
       brightness: 38
       entity_id:
-        - light.kuchenzeile_links
-        - light.kuchenzeile_rechts
+      - light.kuchenzeile_links
+      - light.kuchenzeile_rechts
       icon: mdi:lightbulb-group
       friendly_name: Küchenzeile
       supported_features: 40
@@ -2252,22 +2252,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -2287,22 +2287,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -2322,22 +2322,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -2357,22 +2357,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -2392,22 +2392,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -2427,22 +2427,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -2458,12 +2458,12 @@
       state: 'off'
     light.kuchenzeile:
       supported_color_modes:
-        - brightness
+      - brightness
       color_mode:
       brightness:
       entity_id:
-        - light.kuchenzeile_links
-        - light.kuchenzeile_rechts
+      - light.kuchenzeile_links
+      - light.kuchenzeile_rechts
       icon: mdi:lightbulb-group
       friendly_name: Küchenzeile
       supported_features: 40
@@ -2474,22 +2474,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -2509,22 +2509,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -2544,22 +2544,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -2580,22 +2580,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -2616,22 +2616,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -2651,22 +2651,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -2687,22 +2687,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -2722,22 +2722,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -2753,18 +2753,18 @@
       state: 'off'
     light.tischlampe_nessino:
       effect_list:
-        - candle
-        - 'off'
+      - candle
+      - 'off'
       supported_color_modes:
-        - brightness
+      - brightness
       effect:
       color_mode:
       brightness:
       entity_id:
-        - light.tischlampe_nessino_1
-        - light.tischlampe_nessino_2
-        - light.tischlampe_nessino_3
-        - light.tischlampe_nessino_4
+      - light.tischlampe_nessino_1
+      - light.tischlampe_nessino_2
+      - light.tischlampe_nessino_3
+      - light.tischlampe_nessino_4
       icon: mdi:lamp
       friendly_name: Tischlampe Nessino
       supported_features: 44
@@ -2775,22 +2775,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - candle
-        - cosmos
-        - enchant
-        - fire
-        - glisten
-        - 'off'
-        - opal
-        - prism
-        - sparkle
-        - sunbeam
-        - sunrise
-        - sunset
-        - underwater
+      - candle
+      - cosmos
+      - enchant
+      - fire
+      - glisten
+      - 'off'
+      - opal
+      - prism
+      - sparkle
+      - sunbeam
+      - sunrise
+      - sunset
+      - underwater
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -2800,11 +2800,11 @@
       rgb_color:
       xy_color:
       entity_id:
-        - light.stehlampe_casey_1
-        - light.stehlampe_casey_2
-        - light.stehlampe_casey_3
-        - light.stehlampe_casey_4
-        - light.stehlampe_casey_5
+      - light.stehlampe_casey_1
+      - light.stehlampe_casey_2
+      - light.stehlampe_casey_3
+      - light.stehlampe_casey_4
+      - light.stehlampe_casey_5
       icon: mdi:floor-lamp-outline
       friendly_name: Stehlampe Casey
       supported_features: 44
@@ -2815,22 +2815,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -2846,16 +2846,16 @@
       state: 'off'
     light.bett:
       effect_list:
-        - candle
-        - 'off'
+      - candle
+      - 'off'
       supported_color_modes:
-        - brightness
+      - brightness
       effect: 'off'
       color_mode: brightness
       brightness: 3
       entity_id:
-        - light.bett_links
-        - light.bett_rechts
+      - light.bett_links
+      - light.bett_rechts
       icon: mdi:lightbulb-group-outline
       friendly_name: Bett
       supported_features: 44
@@ -2879,22 +2879,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -2914,22 +2914,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -2949,22 +2949,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -2984,22 +2984,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -3019,22 +3019,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -3054,22 +3054,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -3085,12 +3085,12 @@
       state: 'off'
     light.kuchenzeile:
       supported_color_modes:
-        - brightness
+      - brightness
       color_mode:
       brightness:
       entity_id:
-        - light.kuchenzeile_links
-        - light.kuchenzeile_rechts
+      - light.kuchenzeile_links
+      - light.kuchenzeile_rechts
       icon: mdi:lightbulb-group
       friendly_name: Küchenzeile
       supported_features: 40
@@ -3101,22 +3101,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -3136,22 +3136,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -3171,22 +3171,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -3207,22 +3207,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -3243,22 +3243,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -3278,22 +3278,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -3314,22 +3314,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -3349,22 +3349,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -3380,18 +3380,18 @@
       state: 'off'
     light.tischlampe_nessino:
       effect_list:
-        - candle
-        - 'off'
+      - candle
+      - 'off'
       supported_color_modes:
-        - brightness
+      - brightness
       effect:
       color_mode:
       brightness:
       entity_id:
-        - light.tischlampe_nessino_1
-        - light.tischlampe_nessino_2
-        - light.tischlampe_nessino_3
-        - light.tischlampe_nessino_4
+      - light.tischlampe_nessino_1
+      - light.tischlampe_nessino_2
+      - light.tischlampe_nessino_3
+      - light.tischlampe_nessino_4
       icon: mdi:lamp
       friendly_name: Tischlampe Nessino
       supported_features: 44
@@ -3402,22 +3402,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - candle
-        - cosmos
-        - enchant
-        - fire
-        - glisten
-        - 'off'
-        - opal
-        - prism
-        - sparkle
-        - sunbeam
-        - sunrise
-        - sunset
-        - underwater
+      - candle
+      - cosmos
+      - enchant
+      - fire
+      - glisten
+      - 'off'
+      - opal
+      - prism
+      - sparkle
+      - sunbeam
+      - sunrise
+      - sunset
+      - underwater
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -3427,11 +3427,11 @@
       rgb_color:
       xy_color:
       entity_id:
-        - light.stehlampe_casey_1
-        - light.stehlampe_casey_2
-        - light.stehlampe_casey_3
-        - light.stehlampe_casey_4
-        - light.stehlampe_casey_5
+      - light.stehlampe_casey_1
+      - light.stehlampe_casey_2
+      - light.stehlampe_casey_3
+      - light.stehlampe_casey_4
+      - light.stehlampe_casey_5
       icon: mdi:floor-lamp-outline
       friendly_name: Stehlampe Casey
       supported_features: 44
@@ -3442,22 +3442,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -3473,16 +3473,16 @@
       state: 'off'
     light.bett:
       effect_list:
-        - candle
-        - 'off'
+      - candle
+      - 'off'
       supported_color_modes:
-        - brightness
+      - brightness
       effect:
       color_mode:
       brightness:
       entity_id:
-        - light.bett_links
-        - light.bett_rechts
+      - light.bett_links
+      - light.bett_rechts
       icon: mdi:lightbulb-group-outline
       friendly_name: Bett
       supported_features: 44
@@ -3580,37 +3580,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: xy
       brightness: 128
       color_temp_kelvin:
       color_temp:
       hs_color:
-        - 37.241
-        - 34.118
+      - 37.241
+      - 34.118
       rgb_color:
-        - 255
-        - 222
-        - 168
+      - 255
+      - 222
+      - 168
       xy_color:
-        - 0.4057
-        - 0.3831
+      - 0.4057
+      - 0.3831
       mode: normal
       dynamics: none
       friendly_name: Glühbirne Bad
@@ -3622,37 +3622,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 115
       color_temp_kelvin: 7462
       color_temp: 134
       hs_color:
-        - 228.55
-        - 9.552
+      - 228.55
+      - 9.552
       rgb_color:
-        - 231
-        - 235
-        - 255
+      - 231
+      - 235
+      - 255
       xy_color:
-        - 0.304
-        - 0.308
+      - 0.304
+      - 0.308
       mode: normal
       dynamics: none
       icon: mdi:ceiling-light
@@ -3678,22 +3678,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -3714,22 +3714,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -3750,22 +3750,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -3786,22 +3786,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -3821,22 +3821,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -3857,37 +3857,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 77
       color_temp_kelvin: 2500
       color_temp: 400
       hs_color:
-        - 28.874
-        - 72.522
+      - 28.874
+      - 72.522
       rgb_color:
-        - 255
-        - 159
-        - 70
+      - 255
+      - 159
+      - 70
       xy_color:
-        - 0.546
-        - 0.389
+      - 0.546
+      - 0.389
       mode: normal
       dynamics: none
       friendly_name: Glühbirne Küche
@@ -3895,12 +3895,12 @@
       state: 'on'
     light.kuchenzeile:
       supported_color_modes:
-        - brightness
+      - brightness
       color_mode: brightness
       brightness: 3
       entity_id:
-        - light.kuchenzeile_links
-        - light.kuchenzeile_rechts
+      - light.kuchenzeile_links
+      - light.kuchenzeile_rechts
       icon: mdi:led-strip-variant
       friendly_name: Küchenzeile
       supported_features: 40
@@ -3911,22 +3911,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -3947,22 +3947,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -3983,22 +3983,22 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -4019,22 +4019,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -4055,37 +4055,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: xy
       brightness: 140
       color_temp_kelvin:
       color_temp:
       hs_color:
-        - 36.8
-        - 58.824
+      - 36.8
+      - 58.824
       rgb_color:
-        - 255
-        - 197
-        - 105
+      - 255
+      - 197
+      - 105
       xy_color:
-        - 0.4786
-        - 0.4116
+      - 0.4786
+      - 0.4116
       mode: normal
       dynamics: none
       friendly_name: Stehlampe Nyla
@@ -4097,37 +4097,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 178
       color_temp_kelvin: 2500
       color_temp: 400
       hs_color:
-        - 28.874
-        - 72.522
+      - 28.874
+      - 72.522
       rgb_color:
-        - 255
-        - 159
-        - 70
+      - 255
+      - 159
+      - 70
       xy_color:
-        - 0.546
-        - 0.389
+      - 0.546
+      - 0.389
       mode: normal
       dynamics: none
       icon: mdi:lamp
@@ -4140,22 +4140,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -4176,22 +4176,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -4208,18 +4208,18 @@
       state: 'off'
     light.tischlampe_nessino:
       effect_list:
-        - candle
-        - 'off'
+      - candle
+      - 'off'
       supported_color_modes:
-        - brightness
+      - brightness
       effect:
       color_mode:
       brightness:
       entity_id:
-        - light.tischlampe_nessino_1
-        - light.tischlampe_nessino_2
-        - light.tischlampe_nessino_3
-        - light.tischlampe_nessino_4
+      - light.tischlampe_nessino_1
+      - light.tischlampe_nessino_2
+      - light.tischlampe_nessino_3
+      - light.tischlampe_nessino_4
       icon: mdi:lamp
       friendly_name: Tischlampe Nessino
       supported_features: 44
@@ -4230,22 +4230,22 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - candle
-        - cosmos
-        - enchant
-        - fire
-        - glisten
-        - 'off'
-        - opal
-        - prism
-        - sparkle
-        - sunbeam
-        - sunrise
-        - sunset
-        - underwater
+      - candle
+      - cosmos
+      - enchant
+      - fire
+      - glisten
+      - 'off'
+      - opal
+      - prism
+      - sparkle
+      - sunbeam
+      - sunrise
+      - sunset
+      - underwater
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect:
       color_mode:
       brightness:
@@ -4255,11 +4255,11 @@
       rgb_color:
       xy_color:
       entity_id:
-        - light.stehlampe_casey_1
-        - light.stehlampe_casey_2
-        - light.stehlampe_casey_3
-        - light.stehlampe_casey_4
-        - light.stehlampe_casey_5
+      - light.stehlampe_casey_1
+      - light.stehlampe_casey_2
+      - light.stehlampe_casey_3
+      - light.stehlampe_casey_4
+      - light.stehlampe_casey_5
       icon: mdi:floor-lamp-outline
       friendly_name: Stehlampe Casey
       supported_features: 44
@@ -4270,37 +4270,37 @@
       min_mireds: 153
       max_mireds: 500
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: xy
       brightness: 20
       color_temp_kelvin:
       color_temp:
       hs_color:
-        - 26.4
-        - 78.431
+      - 26.4
+      - 78.431
       rgb_color:
-        - 255
-        - 143
-        - 55
+      - 255
+      - 143
+      - 55
       xy_color:
-        - 0.5779
-        - 0.3786
+      - 0.5779
+      - 0.3786
       mode: normal
       dynamics: none
       icon: mdi:led-strip-variant
@@ -4309,16 +4309,16 @@
       state: 'on'
     light.bett:
       effect_list:
-        - candle
-        - 'off'
+      - candle
+      - 'off'
       supported_color_modes:
-        - brightness
+      - brightness
       effect:
       color_mode:
       brightness:
       entity_id:
-        - light.bett_links
-        - light.bett_rechts
+      - light.bett_links
+      - light.bett_rechts
       icon: mdi:lightbulb-group-outline
       friendly_name: Bett
       supported_features: 44
@@ -4342,37 +4342,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 166
       color_temp_kelvin: 2500
       color_temp: 400
       hs_color:
-        - 28.874
-        - 72.522
+      - 28.874
+      - 72.522
       rgb_color:
-        - 255
-        - 159
-        - 70
+      - 255
+      - 159
+      - 70
       xy_color:
-        - 0.546
-        - 0.389
+      - 0.546
+      - 0.389
       mode: normal
       dynamics: none
       icon: mdi:ceiling-light
@@ -4385,37 +4385,37 @@
       min_mireds: 50
       max_mireds: 1000
       effect_list:
-        - 'off'
-        - candle
-        - fire
-        - prism
-        - sparkle
-        - opal
-        - glisten
-        - underwater
-        - cosmos
-        - sunbeam
-        - enchant
-        - sunrise
-        - sunset
+      - 'off'
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      - sunrise
+      - sunset
       supported_color_modes:
-        - color_temp
-        - xy
+      - color_temp
+      - xy
       effect: 'off'
       color_mode: color_temp
       brightness: 128
       color_temp_kelvin: 2500
       color_temp: 400
       hs_color:
-        - 28.874
-        - 72.522
+      - 28.874
+      - 72.522
       rgb_color:
-        - 255
-        - 159
-        - 70
+      - 255
+      - 159
+      - 70
       xy_color:
-        - 0.546
-        - 0.389
+      - 0.546
+      - 0.389
       mode: normal
       dynamics: none
       icon: mdi:ceiling-light

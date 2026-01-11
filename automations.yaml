@@ -2,329 +2,822 @@
   alias: Lüfen beim Kochen
   description: ''
   triggers:
-    - type: power
+  - trigger: numeric_state
+    entity_id:
+    - sensor.eve_energy_20ebo8301_leistung_3
+    above: 2
+  - trigger: numeric_state
+    entity_id:
+    - sensor.eve_energy_20ebo8301_leistung_3
+    below: 2
+  conditions: []
+  actions:
+  - if:
+    - type: is_power
+      condition: device
       device_id: c7e89541ee45d88503fa7aba23b9ea18
       entity_id: 6e0bc241567b3eb1bc4dbb83a2688495
       domain: sensor
-      trigger: device
       above: 2
-      below: 2
-  conditions: []
-  actions:
-    - if:
-        - type: is_power
-          condition: device
-          device_id: c7e89541ee45d88503fa7aba23b9ea18
-          entity_id: 6e0bc241567b3eb1bc4dbb83a2688495
-          domain: sensor
-          above: 2
-      then:
-        - action: scene.create
-          metadata: {}
-          data:
-            scene_id: temp_kueche_rollo
-            snapshot_entities:
-              - cover.smart_roller_shutter_2309047208402470080148e1e9d80454_shutter
-        - device_id: 687c751d9ced7000b1f9389f571eed7d
-          domain: cover
-          entity_id: f40a0adf7128ac6f21c757c21913e590
-          type: open
-      else:
-        - action: scene.turn_on
-          metadata: {}
-          data: {}
-          target:
-            entity_id: scene.temp_kueche_rollo
+    then:
+    - action: scene.create
+      metadata: {}
+      data:
+        scene_id: temp_kueche_rollo
+        snapshot_entities:
+        - cover.smart_roller_shutter_2309047208402470080148e1e9d80454_shutter
+    - device_id: 687c751d9ced7000b1f9389f571eed7d
+      domain: cover
+      entity_id: f40a0adf7128ac6f21c757c21913e590
+      type: open
+    else:
+    - action: scene.turn_on
+      metadata: {}
+      data: {}
+      target:
+        entity_id: scene.temp_kueche_rollo
   mode: single
 - id: '1767265312688'
   alias: Arbeitslicht einschalten
   description: ''
   triggers:
-    - type: power
+  - trigger: numeric_state
+    entity_id:
+    - sensor.eve_energy_20ebo8301_leistung_4
+    above: 20
+  - trigger: numeric_state
+    entity_id:
+    - sensor.eve_energy_20ebo8301_leistung_4
+    below: 20
+  conditions:
+  - condition: sun
+    after: sunset
+    after_offset: -00:15:00
+  actions:
+  - if:
+    - type: is_power
+      condition: device
       device_id: 4fc7d6f016cbdf3de126ce3243ab30f9
       entity_id: 863846466e78b217de3e43d19ab7845c
       domain: sensor
-      trigger: device
       above: 20
-      below: 20
-  conditions:
-    - condition: sun
-      after: sunset
-      after_offset: -00:15:00
-  actions:
-    - if:
-        - type: is_power
-          condition: device
-          device_id: 4fc7d6f016cbdf3de126ce3243ab30f9
-          entity_id: 863846466e78b217de3e43d19ab7845c
-          domain: sensor
-          above: 20
-      then:
-        - action: scene.create
-          metadata: {}
-          data:
-            scene_id: temp_wohnzimmer_leuchten
-            snapshot_entities:
-              - light.couch
-              - light.esstisch
-              - light.stehlampe_nyla
-              - light.signe_gradient_floor_1
-              - light.tischlampe_nessino
-              - light.tischlampe_nyla
-              - light.hue_gradient_lightstrip_1
-              - light.hue_play_gradient_lightstrip_1
-              - light.hue_lightstrip_1
-              - light.akari_10a
-        - action: scene.turn_on
-          metadata: {}
-          target:
-            entity_id: scene.arbeiten
-          data: {}
-      else:
-        - action: scene.turn_on
-          metadata: {}
-          target:
-            entity_id: scene.temp_wohnzimmer_leuchten
-          data: {}
-  mode: single
-- id: '1767279764764'
-  alias: Schalte Wohnzimmer ein
-  description: ''
-  triggers:
-    - trigger: state
-      entity_id:
-        - binary_sensor.bewegungsbereich
-      to:
-        - 'on'
-  conditions:
-    - condition: sun
-      after: sunset
-      after_offset: -00:15:00
-    - condition: device
-      type: is_off
-      device_id: 70d045b5174e4c9dac4ae7a048e6cc7c
-      entity_id: 8af552d6f5ba1245f4744fbb21dbe0c6
-      domain: light
-    - condition: device
-      type: is_off
-      device_id: 92e356361d5f75ed32d172eb5cd1025c
-      entity_id: a56d6181c71f7d4541cd10710e6baa82
-      domain: light
-    - condition: device
-      type: is_off
-      device_id: b0afa244d93e39d165200bf7a6329c7a
-      entity_id: 90df4da0aff9c56dd733ee1f632f2a6f
-      domain: light
-    - condition: device
-      type: is_off
-      device_id: 9848eef968a9db7121634559226bbaca
-      entity_id: 72f506dac1644f0894c68782f2c91856
-      domain: light
-  actions:
-    - action: scene.turn_on
-      metadata: {}
-      data: {}
-      target:
-        entity_id: scene.couch
-  mode: single
-- id: '1767299504159'
-  alias: TV eingeschalten
-  description: ''
-  triggers:
-    - device_id: 39adf7f3684b4710dd6dbd2c63fb2e55
-      domain: media_player
-      entity_id: ba85666ed102ae937ce9b7129bd43981
-      type: turned_on
-      trigger: device
-    - trigger: state
-      entity_id:
-        - media_player.apple_tv_wohnzimm
-      from:
-        - 'off'
-  conditions: []
-  actions:
+    then:
     - action: scene.create
       metadata: {}
       data:
         scene_id: temp_wohnzimmer_leuchten
         snapshot_entities:
-          - light.couch
-          - light.esstisch
-          - light.stehlampe_nyla
-          - light.signe_gradient_floor_1
-          - light.tischlampe_nessino
-          - light.tischlampe_nyla
-          - light.hue_gradient_lightstrip_1
-          - light.hue_lightstrip_1
-          - light.hue_play_gradient_lightstrip_1
-          - light.akari_10a
+        - light.couch
+        - light.esstisch
+        - light.stehlampe_nyla
+        - light.signe_gradient_floor_1
+        - light.tischlampe_nessino
+        - light.tischlampe_nyla
+        - light.hue_gradient_lightstrip_1
+        - light.hue_play_gradient_lightstrip_1
+        - light.hue_lightstrip_1
+        - light.akari_10a
+    - action: scene.turn_on
+      metadata: {}
+      data: {}
+      target:
+        entity_id: scene.working
+    else:
     - action: scene.turn_on
       metadata: {}
       target:
-        entity_id: scene.tv
+        entity_id: scene.temp_wohnzimmer_leuchten
       data: {}
+  mode: single
+- id: '1767279764764'
+  alias: Schalte Wohnzimmer ein
+  description: ''
+  triggers:
+  - trigger: state
+    entity_id:
+    - binary_sensor.bewegungsbereich
+    to:
+    - 'on'
+  conditions:
+  - condition: sun
+    after: sunset
+    after_offset: -00:15:00
+  - condition: device
+    type: is_off
+    device_id: 70d045b5174e4c9dac4ae7a048e6cc7c
+    entity_id: 8af552d6f5ba1245f4744fbb21dbe0c6
+    domain: light
+  - condition: device
+    type: is_off
+    device_id: 92e356361d5f75ed32d172eb5cd1025c
+    entity_id: a56d6181c71f7d4541cd10710e6baa82
+    domain: light
+  - condition: device
+    type: is_off
+    device_id: b0afa244d93e39d165200bf7a6329c7a
+    entity_id: 90df4da0aff9c56dd733ee1f632f2a6f
+    domain: light
+  - condition: device
+    type: is_off
+    device_id: 9848eef968a9db7121634559226bbaca
+    entity_id: 72f506dac1644f0894c68782f2c91856
+    domain: light
+  actions:
+  - action: scene.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id: scene.couch
+  mode: single
+- id: '1767299504159'
+  alias: TV eingeschalten
+  description: ''
+  triggers:
+  - device_id: 39adf7f3684b4710dd6dbd2c63fb2e55
+    domain: media_player
+    entity_id: ba85666ed102ae937ce9b7129bd43981
+    type: turned_on
+    trigger: device
+  - trigger: state
+    entity_id:
+    - media_player.apple_tv_wohnzimm
+    from:
+    - 'off'
+  conditions: []
+  actions:
+  - action: scene.create
+    metadata: {}
+    data:
+      scene_id: temp_wohnzimmer_leuchten
+      snapshot_entities:
+      - light.couch
+      - light.esstisch
+      - light.stehlampe_nyla
+      - light.signe_gradient_floor_1
+      - light.tischlampe_nessino
+      - light.tischlampe_nyla
+      - light.hue_gradient_lightstrip_1
+      - light.hue_lightstrip_1
+      - light.hue_play_gradient_lightstrip_1
+      - light.akari_10a
+  - action: scene.turn_on
+    metadata: {}
+    target:
+      entity_id: scene.tv
+    data: {}
   mode: single
 - id: '1767559003748'
   alias: Rollos nach oben fahren
   description: ''
   triggers:
-    - trigger: sun
-      event: sunrise
-      offset: -00:30:00
+  - trigger: sun
+    event: sunrise
+    offset: -00:30:00
   conditions:
-    - condition: time
-      weekday:
-        - mon
-        - tue
-        - wed
-        - thu
-        - fri
+  - condition: time
+    weekday:
+    - mon
+    - tue
+    - wed
+    - thu
+    - fri
   actions:
-    - action: scene.turn_on
-      metadata: {}
-      target:
-        entity_id: scene.rollos_auf
-      data: {}
+  - action: scene.turn_on
+    metadata: {}
+    target:
+      entity_id: scene.rollos_auf
+    data: {}
   mode: single
 - id: '1767559076078'
   alias: Rollos nach unten fahren
   description: ''
   triggers:
-    - trigger: sun
-      event: sunset
-      offset: 00:30:00
+  - trigger: sun
+    event: sunset
+    offset: 00:30:00
   conditions: []
   actions:
-    - action: scene.turn_on
-      metadata: {}
-      data: {}
-      target:
-        entity_id: scene.rollos_zu
+  - action: scene.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id: scene.rollos_zu
   mode: single
 - id: '1767562259083'
   alias: Zu Hause verlassen
   description: ''
   triggers:
-    - trigger: zone
-      entity_id: person.marco_biedermann
-      zone: zone.home
-      event: leave
+  - trigger: zone
+    entity_id: device_tracker.marcos_iphone
+    zone: zone.home
+    event: leave
   conditions: []
   actions:
-    - action: scene.turn_on
-      metadata: {}
-      data: {}
-      target:
-        entity_id: scene.zu_hause_verlassen
+  - action: scene.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id: scene.zu_hause_verlassen
   mode: single
 - id: '1767648542380'
   alias: Licht für Wohnungstür
   description: ''
   triggers:
-    - device_id: af3dcaf0d342bcbef1f9ca0d11fbbd89
-      domain: lock
-      entity_id: 3363b6611711a3871a740401c4d17a8d
-      type: unlocked
-      trigger: device
-    - type: opened
-      device_id: 7116eb1320169fb48bc9a32579968153
-      entity_id: 56927c0f0828a75b2c16b2b58b949e51
-      domain: binary_sensor
-      trigger: device
-    - device_id: b4529076d1a14f4312e35ae5ee375214
-      domain: button
-      entity_id: ac2466a8dc6bdd9f65d363a48b12026e
-      type: pressed
-      trigger: device
-    - type: motion
-      device_id: af12b7c38d89d8c555544849a199d543
-      entity_id: cbb97f6cdb2a9470a4d22a90d1b5f38c
-      domain: binary_sensor
-      trigger: device
+  - device_id: af3dcaf0d342bcbef1f9ca0d11fbbd89
+    domain: lock
+    entity_id: 3363b6611711a3871a740401c4d17a8d
+    type: unlocked
+    trigger: device
+  - type: opened
+    device_id: 7116eb1320169fb48bc9a32579968153
+    entity_id: 56927c0f0828a75b2c16b2b58b949e51
+    domain: binary_sensor
+    trigger: device
+  - device_id: b4529076d1a14f4312e35ae5ee375214
+    domain: button
+    entity_id: ac2466a8dc6bdd9f65d363a48b12026e
+    type: pressed
+    trigger: device
+  - type: motion
+    device_id: af12b7c38d89d8c555544849a199d543
+    entity_id: cbb97f6cdb2a9470a4d22a90d1b5f38c
+    domain: binary_sensor
+    trigger: device
   conditions: []
   actions:
-    - action: scene.create
-      metadata: {}
-      data:
-        scene_id: temp_flur_leuchten
-        snapshot_entities:
-          - light.spiegel
-          - light.wohnungstur
-    - action: scene.turn_on
-      metadata: {}
-      target:
-        entity_id: scene.zu_hause_ankommen
-      data: {}
-    - delay:
-        hours: 0
-        minutes: 5
-        seconds: 0
-        milliseconds: 0
-    - action: scene.turn_on
-      metadata: {}
-      target:
-        entity_id: scene.temp_flur_leuchten
-      data: {}
+  - action: scene.create
+    metadata: {}
+    data:
+      scene_id: temp_flur_leuchten
+      snapshot_entities:
+      - light.spiegel
+      - light.wohnungstur
+  - action: scene.turn_on
+    metadata: {}
+    target:
+      entity_id: scene.zu_hause_ankommen
+    data: {}
+  - delay:
+      hours: 0
+      minutes: 3
+      seconds: 30
+      milliseconds: 0
+  - action: scene.turn_on
+    metadata: {}
+    target:
+      entity_id: scene.temp_flur_leuchten
+    data: {}
   mode: single
 - id: '1767805019548'
   alias: Kaffee zubereiten
   description: ''
   triggers:
-    - type: changed_states
+  - type: changed_states
+    device_id: 5106143a62ee944337e1eeae9f57f1c1
+    entity_id: 0db09875e731d8ce0a3e587bfd27b9fb
+    domain: switch
+    trigger: device
+  conditions: []
+  actions:
+  - if:
+    - condition: device
+      type: is_on
       device_id: 5106143a62ee944337e1eeae9f57f1c1
       entity_id: 0db09875e731d8ce0a3e587bfd27b9fb
       domain: switch
-      trigger: device
-  conditions: []
-  actions:
-    - if:
-        - condition: device
-          type: is_on
-          device_id: 5106143a62ee944337e1eeae9f57f1c1
-          entity_id: 0db09875e731d8ce0a3e587bfd27b9fb
-          domain: switch
-      then:
-        - action: scene.create
-          metadata: {}
-          data:
-            scene_id: temp_kueche_leuchten
-            snapshot_entities:
-              - light.kuche
-              - light.kuchenzeile
-              - light.gluhbirne_kuche
-        - action: light.turn_on
-          metadata: {}
-          target:
-            entity_id: light.kuchenzeile
-          data:
-            brightness_pct: 40
-      else:
-        - delay:
-            hours: 0
-            minutes: 1
-            seconds: 30
-            milliseconds: 0
-        - action: scene.turn_on
-          metadata: {}
-          data: {}
-          target:
-            entity_id: scene.temp_kueche_leuchten
+    then:
+    - action: scene.create
+      metadata: {}
+      data:
+        scene_id: temp_kueche_leuchten
+        snapshot_entities:
+        - light.kuche
+        - light.kuchenzeile
+        - light.gluhbirne_kuche
+    - action: light.turn_on
+      metadata: {}
+      target:
+        entity_id: light.kuchenzeile
+      data:
+        brightness_pct: 40
+    else:
+    - delay:
+        hours: 0
+        minutes: 1
+        seconds: 30
+        milliseconds: 0
+    - action: scene.turn_on
+      metadata: {}
+      data: {}
+      target:
+        entity_id: scene.temp_kueche_leuchten
   mode: single
 - id: '1767883769919'
   alias: Benachrichtigung senden, wenn Waschmaschine fertig
   description: ''
   triggers:
-    - type: power
-      device_id: 9a516f445178413249d6cc9ddcefbecd
-      entity_id: bd7dd8a07739cc948fcded413e7f4c3f
-      domain: sensor
-      trigger: device
-      below: 2
+  - type: power
+    device_id: 9a516f445178413249d6cc9ddcefbecd
+    entity_id: bd7dd8a07739cc948fcded413e7f4c3f
+    domain: sensor
+    trigger: device
+    below: 2
   conditions: []
   actions:
-    - action: notify.mobile_app_marcos_iphone
-      metadata: {}
-      data:
-        message: Waschmaschine
-        title: Waschmaschine ist fertig!
+  - action: notify.mobile_app_marcos_iphone
+    metadata: {}
+    data:
+      message: Waschmaschine
+      title: Waschmaschine ist fertig!
+  mode: single
+- id: '1768157606445'
+  alias: Philips Hue Tap Dial Switch Wohnzimmer
+  description: ''
+  triggers:
+  - device_id: 00bf30202510e4db34cc1eba3b4b8ff2
+    domain: hue
+    type: initial_press
+    subtype: 1
+    unique_id: 1f6a713f-39d8-473d-8f3e-0759417c3371
+    trigger: device
+    id: button_1
+  - device_id: 00bf30202510e4db34cc1eba3b4b8ff2
+    domain: hue
+    type: initial_press
+    subtype: 2
+    unique_id: d0391518-f75d-4799-be56-ee0647a87fd4
+    trigger: device
+    id: button_2
+  - device_id: 00bf30202510e4db34cc1eba3b4b8ff2
+    domain: hue
+    type: repeat
+    subtype: 3
+    unique_id: 777d645f-943b-4f4b-93f3-b3d90a703b97
+    trigger: device
+    id: button_3
+  - device_id: 00bf30202510e4db34cc1eba3b4b8ff2
+    domain: hue
+    type: initial_press
+    subtype: 4
+    unique_id: ec3ff7b4-d1ed-41b9-982f-584e5f59bb17
+    trigger: device
+    id: button_4
+  - device_id: 00bf30202510e4db34cc1eba3b4b8ff2
+    domain: hue
+    type: start
+    subtype: clock_wise
+    unique_id: a35d132b-520d-4be5-96c9-69a0af671b83
+    trigger: device
+    id: dial_up
+  - device_id: 00bf30202510e4db34cc1eba3b4b8ff2
+    domain: hue
+    type: start
+    subtype: counter_clock_wise
+    unique_id: a35d132b-520d-4be5-96c9-69a0af671b83
+    trigger: device
+    id: dial_down
+  conditions: []
+  actions:
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - button_1
+      sequence:
+      - action: light.toggle
+        metadata: {}
+        target:
+          entity_id: light.couch
+        data: {}
+    - conditions:
+      - condition: trigger
+        id:
+        - button_2
+      sequence:
+      - action: light.toggle
+        metadata: {}
+        target:
+          entity_id: light.esstisch
+        data: {}
+    - conditions:
+      - condition: trigger
+        id:
+        - button_3
+      sequence: []
+    - conditions:
+      - condition: trigger
+        id:
+        - button_4
+      sequence: []
+    - conditions:
+      - condition: trigger
+        id:
+        - dial_up
+      sequence:
+      - action: light.turn_on
+        metadata: {}
+        target:
+          entity_id:
+          - light.couch
+          - light.esstisch
+        data:
+          brightness_step_pct: 10
+    - conditions:
+      - condition: trigger
+        id:
+        - dial_down
+      sequence:
+      - action: light.turn_on
+        metadata: {}
+        target:
+          entity_id:
+          - light.couch
+          - light.esstisch
+        data:
+          brightness_step_pct: -10
+  mode: single
+- id: '1768160334687'
+  alias: Philips Hue Dial Switch Küche
+  description: ''
+  triggers:
+  - device_id: cc2f98ef5df4173f86117c596c9a3660
+    domain: hue
+    type: initial_press
+    subtype: 1
+    unique_id: ed1219f0-017d-47bd-9da4-50ffbf258916
+    trigger: device
+    id: button_1
+  - device_id: cc2f98ef5df4173f86117c596c9a3660
+    domain: hue
+    type: initial_press
+    subtype: 2
+    unique_id: fc879307-5e58-4e88-8783-7eb494c9f729
+    trigger: device
+    id: button_2
+  - device_id: cc2f98ef5df4173f86117c596c9a3660
+    domain: hue
+    type: initial_press
+    subtype: 3
+    unique_id: 81179010-5c38-477f-8a24-f17f99697256
+    trigger: device
+    id: button_3
+  - device_id: cc2f98ef5df4173f86117c596c9a3660
+    domain: hue
+    type: initial_press
+    subtype: 4
+    unique_id: 985d284a-eaa4-4e73-b159-786a1b068ff4
+    trigger: device
+    id: button_4
+  - device_id: cc2f98ef5df4173f86117c596c9a3660
+    domain: hue
+    type: start
+    subtype: clock_wise
+    unique_id: 42ba3aff-7783-442e-8eb5-a7dc6f45e2c9
+    trigger: device
+    id: dial_up
+  - device_id: cc2f98ef5df4173f86117c596c9a3660
+    domain: hue
+    type: start
+    subtype: counter_clock_wise
+    unique_id: 42ba3aff-7783-442e-8eb5-a7dc6f45e2c9
+    trigger: device
+    id: dial_down
+  conditions: []
+  actions:
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - button_1
+      sequence:
+      - action: light.toggle
+        metadata: {}
+        target:
+          entity_id: light.kuche
+        data: {}
+    - conditions:
+      - condition: trigger
+        id:
+        - button_2
+      sequence:
+      - action: light.toggle
+        metadata: {}
+        target:
+          entity_id: light.gluhbirne_kuche
+        data: {}
+      - action: light.toggle
+        metadata: {}
+        target:
+          entity_id: light.kuchenzeile
+        data: {}
+    - conditions:
+      - condition: trigger
+        id:
+        - button_3
+      sequence: []
+    - conditions:
+      - condition: trigger
+        id:
+        - button_4
+      sequence: []
+    - conditions:
+      - condition: trigger
+        id:
+        - dial_up
+      sequence:
+      - action: light.turn_on
+        metadata: {}
+        target:
+          entity_id:
+          - light.kuche
+          - light.gluhbirne_kuche
+          - light.kuchenzeile
+        data:
+          brightness_step_pct: 10
+    - conditions:
+      - condition: trigger
+        id:
+        - dial_down
+      sequence:
+      - action: light.turn_on
+        metadata: {}
+        target:
+          entity_id:
+          - light.kuche
+          - light.gluhbirne_kuche
+          - light.kuchenzeile
+        data:
+          brightness_step_pct: -10
+  mode: single
+- id: '1768161507472'
+  alias: Philips Hue Tap Dial Switch Bad
+  description: ''
+  triggers:
+  - device_id: db49e666d5edeef505ac84c189cac10c
+    domain: hue
+    type: initial_press
+    subtype: 1
+    unique_id: 3bc6bbe8-d347-41a7-aba3-c3924d82c44f
+    trigger: device
+    id: button_1
+  - device_id: db49e666d5edeef505ac84c189cac10c
+    domain: hue
+    type: initial_press
+    subtype: 2
+    unique_id: 12f3d530-0163-46c9-8406-5f929d1112b8
+    trigger: device
+    id: button_2
+  - device_id: db49e666d5edeef505ac84c189cac10c
+    domain: hue
+    type: initial_press
+    subtype: 3
+    unique_id: d9f1bcaf-9413-44a3-b9df-9b2e50825c13
+    trigger: device
+    id: button_3
+  - device_id: db49e666d5edeef505ac84c189cac10c
+    domain: hue
+    type: initial_press
+    subtype: 4
+    unique_id: 4e49117e-e585-4e22-84fe-7878519ae8da
+    trigger: device
+    id: button_4
+  - device_id: db49e666d5edeef505ac84c189cac10c
+    domain: hue
+    type: start
+    subtype: clock_wise
+    unique_id: 7b229540-ab24-45a1-8af6-573588466a80
+    trigger: device
+    id: dial_up
+  - device_id: db49e666d5edeef505ac84c189cac10c
+    domain: hue
+    type: start
+    subtype: counter_clock_wise
+    unique_id: 7b229540-ab24-45a1-8af6-573588466a80
+    trigger: device
+    id: dial_down
+  conditions: []
+  actions:
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - button_1
+      sequence:
+      - action: light.toggle
+        metadata: {}
+        data: {}
+        target:
+          entity_id: light.badezimmer
+    - conditions:
+      - condition: trigger
+        id:
+        - button_2
+      sequence:
+      - action: light.toggle
+        metadata: {}
+        data: {}
+        target:
+          entity_id: light.gluhbirne_bad
+    - conditions:
+      - condition: trigger
+        id:
+        - button_3
+      sequence: []
+    - conditions:
+      - condition: trigger
+        id:
+        - button_4
+      sequence: []
+    - conditions:
+      - condition: trigger
+        id:
+        - dial_up
+      sequence:
+      - action: light.turn_on
+        metadata: {}
+        data:
+          brightness_step_pct: 10
+        target:
+          entity_id:
+          - light.badezimmer
+          - light.gluhbirne_bad
+    - conditions:
+      - condition: trigger
+        id:
+        - dial_down
+      sequence:
+      - action: light.turn_on
+        metadata: {}
+        data:
+          brightness_step_pct: -10
+        target:
+          entity_id:
+          - light.badezimmer
+          - light.gluhbirne_bad
+  mode: single
+- id: '1768165862259'
+  alias: Philips Hue Tap Dial Switch Schlafzimmer
+  description: ''
+  triggers:
+  - device_id: 92cbdaeb15b707cf1aa63f81076fb9fc
+    domain: hue
+    type: initial_press
+    subtype: 1
+    unique_id: 6b6bb3c6-7f90-4726-950b-1fa6490dfefb
+    trigger: device
+    id: bedroom_button_1
+  - device_id: 92cbdaeb15b707cf1aa63f81076fb9fc
+    domain: hue
+    type: initial_press
+    subtype: 2
+    unique_id: b65c372c-7e38-4b95-ae54-766bd749566f
+    trigger: device
+    id: bedroom_button_2
+  - device_id: 92cbdaeb15b707cf1aa63f81076fb9fc
+    domain: hue
+    type: initial_press
+    subtype: 3
+    unique_id: fd82b884-6669-4f64-b960-2027f1b9239c
+    trigger: device
+    id: bedroom_button_3
+  - device_id: 92cbdaeb15b707cf1aa63f81076fb9fc
+    domain: hue
+    type: initial_press
+    subtype: 4
+    unique_id: b64660a4-b2b4-42e1-86ff-ad0d1d0a3d60
+    trigger: device
+    id: bedroom_button_4
+  - device_id: 92cbdaeb15b707cf1aa63f81076fb9fc
+    domain: hue
+    type: start
+    subtype: clock_wise
+    unique_id: 65a59890-7b8d-40e6-919e-d077550d7fbf
+    trigger: device
+    id: bedroom_dial_up
+  - device_id: 92cbdaeb15b707cf1aa63f81076fb9fc
+    domain: hue
+    type: start
+    subtype: counter_clock_wise
+    unique_id: 65a59890-7b8d-40e6-919e-d077550d7fbf
+    trigger: device
+    id: bedroom_dial_down
+  - device_id: 2d24916882c3462bfc66756bdc133e45
+    domain: hue
+    type: initial_press
+    subtype: 1
+    unique_id: 425274fd-681f-4732-bb91-f8603fb9613b
+    trigger: device
+    id: bed_button_1
+  - device_id: 2d24916882c3462bfc66756bdc133e45
+    domain: hue
+    type: initial_press
+    subtype: 2
+    unique_id: 431a7969-7c40-4469-b253-f1f28b4e4592
+    trigger: device
+    id: bed_button_2
+  - device_id: 2d24916882c3462bfc66756bdc133e45
+    domain: hue
+    type: initial_press
+    subtype: 3
+    unique_id: 0ef7b983-743d-4947-8c92-1b74347976f2
+    trigger: device
+    id: bed_button_3
+  - device_id: 2d24916882c3462bfc66756bdc133e45
+    domain: hue
+    type: initial_press
+    subtype: 4
+    unique_id: d4df7ed8-66b1-4752-a394-2cab7f793b5c
+    trigger: device
+    id: bed_button_4
+  - device_id: 2d24916882c3462bfc66756bdc133e45
+    domain: hue
+    type: start
+    subtype: clock_wise
+    unique_id: a4e015fb-3155-4393-9784-18ad1d71a66e
+    trigger: device
+    id: bed_dial_up
+  - device_id: 2d24916882c3462bfc66756bdc133e45
+    domain: hue
+    type: start
+    subtype: counter_clock_wise
+    unique_id: a4e015fb-3155-4393-9784-18ad1d71a66e
+    trigger: device
+    id: bed_dial_down
+  conditions: []
+  actions:
+  - choose:
+    - conditions:
+      - condition: trigger
+        id:
+        - bedroom_button_1
+        - bed_button_1
+      sequence:
+      - action: light.toggle
+        metadata: {}
+        data: {}
+    - conditions:
+      - condition: trigger
+        id:
+        - bedroom_button_2
+        - bed_button_2
+      sequence:
+      - action: light.toggle
+        metadata: {}
+        data: {}
+        target:
+          entity_id: light.stehlampe_casey
+    - conditions:
+      - condition: trigger
+        id:
+        - bedroom_button_3
+        - bed_button_3
+      sequence: []
+    - conditions:
+      - condition: trigger
+        id:
+        - bedroom_button_4
+      sequence:
+      - action: scene.turn_on
+        metadata: {}
+        target:
+          entity_id: scene.ins_bett_gehen
+        data: {}
+    - conditions:
+      - condition: trigger
+        id:
+        - bed_button_4
+      sequence:
+      - action: scene.turn_on
+        metadata: {}
+        data: {}
+        target:
+          entity_id: scene.schlafen
+    - conditions:
+      - condition: trigger
+        id:
+        - bedroom_dial_up
+        - bed_dial_up
+      sequence:
+      - action: light.turn_on
+        metadata: {}
+        data:
+          brightness_step_pct: 10
+        target:
+          entity_id:
+          - light.stehlampe_casey
+          - light.bett
+    - conditions:
+      - condition: trigger
+        id:
+        - bedroom_dial_down
+        - bed_dial_down
+      sequence:
+      - action: light.turn_on
+        metadata: {}
+        data:
+          brightness_step_pct: -10
+        target:
+          entity_id:
+          - light.stehlampe_casey
+          - light.bett
   mode: single

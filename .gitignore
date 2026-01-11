@@ -1,0 +1,11 @@
+secrets.yaml
+*.log*
+.ha_run.lock
+.storage/
+.cloud/
+*.db
+*.db-shm
+*.db-wal
+custom_components/
+blueprints/
+.HA_VERSION

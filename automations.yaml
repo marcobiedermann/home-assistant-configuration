@@ -2107,3 +2107,15 @@
         type: set_position
         position: 20
   mode: single
+- id: '1774890182456'
+  alias: GitHub Backup täglich
+  description: ''
+  triggers:
+  - trigger: time
+    at: 03:00:00
+  conditions: []
+  actions:
+  - action: shell_command.git_backup
+    metadata: {}
+    data: {}
+  mode: single

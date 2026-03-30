@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export HOME=/config
+export GIT_SSH_COMMAND="ssh -i /config/.ssh/id_ed25519 -o UserKnownHostsFile=/config/.ssh/known_hosts"
+
 cd /config || exit 1
 
 echo "[$(date)] Starting backup"
